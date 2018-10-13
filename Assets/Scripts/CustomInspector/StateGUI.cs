@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Behavior;
+using Raavanan;
 using UnityEditor;
 using UnityEditorInternal;
 
-namespace Behavior.CustomUI
+namespace Raavanan.CustomUI
 {
     [CustomEditor(typeof(State))]
     public class StateGUI : Editor

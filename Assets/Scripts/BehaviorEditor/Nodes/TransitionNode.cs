@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-namespace Behavior.GraphEditor
+namespace Raavanan.GraphEditor
 {
     [CreateAssetMenu(menuName = "Editor/Nodes/Transition Node")]
     public class TransitionNode : DrawNode

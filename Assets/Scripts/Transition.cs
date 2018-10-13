@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Behavior
+namespace Raavanan
 {
     [System.Serializable]
     public class Transition

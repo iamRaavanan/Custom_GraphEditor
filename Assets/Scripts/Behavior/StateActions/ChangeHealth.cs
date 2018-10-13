@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Behavior
+namespace Raavanan
 {
     [CreateAssetMenu(menuName ="Actions/Test/Add Health")]
     public class ChangeHealth : StateActions

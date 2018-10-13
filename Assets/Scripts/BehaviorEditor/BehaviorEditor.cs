@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEditor;
 using System;
 
-namespace Behavior.GraphEditor
+namespace Raavanan.GraphEditor
 {
     public class BehaviorEditor : EditorWindow
     {

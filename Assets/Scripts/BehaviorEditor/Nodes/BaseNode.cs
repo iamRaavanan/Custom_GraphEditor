@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;
 
-namespace Behavior.GraphEditor
+namespace Raavanan.GraphEditor
 {
     [System.Serializable]
     public class BaseNode

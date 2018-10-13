@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Behavior.GraphEditor
+namespace Raavanan.GraphEditor
 {
     public abstract class DrawNode : ScriptableObject
     {

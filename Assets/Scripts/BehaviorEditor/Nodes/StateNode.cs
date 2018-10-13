@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using UnityEditorInternal;
-using Behavior;
+using Raavanan;
 
-namespace Behavior.GraphEditor
+namespace Raavanan.GraphEditor
 {
     [CreateAssetMenu (menuName = "Editor/Nodes/State Node")]
     public class StateNode : DrawNode

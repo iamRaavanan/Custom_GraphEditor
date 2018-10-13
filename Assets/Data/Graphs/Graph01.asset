@@ -11,5 +11,78 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad89b0cfc79f1ed4daa7b44ef5beaa93, type: 3}
   m_Name: Graph01
   m_EditorClassIdentifier: 
-  _Windows: []
-  _IdCount: 10
+  _Windows:
+  - _Id: 11
+    _DrawNode: {fileID: 11400000, guid: 8d34a0241220e2b41891679c671c7488, type: 2}
+    _WindowRect:
+      serializedVersion: 2
+      x: 334.20026
+      y: 217.60016
+      width: 200
+      height: 290
+    _WindowTitle: State
+    _EnterNode: 0
+    _TargetNode: 0
+    _IsDuplicate: 0
+    _Comment: 
+    _IsAssigned: 1
+    _Collapse: 0
+    _ShowActions: 1
+    _ShowEnterExit: 0
+    _PreviousCollapse: 0
+    _StateNodeRef:
+      _CurrentState: {fileID: 11400000, guid: f2c3cd7c1a227d646b34dea923022828, type: 2}
+      _PreviousState: {fileID: 11400000, guid: f2c3cd7c1a227d646b34dea923022828, type: 2}
+    _TransitionNodeRef:
+      _PreviousCondition: {fileID: 0}
+      _TrasitionId: 0
+  - _Id: 12
+    _DrawNode: {fileID: 11400000, guid: f526f7a01466bf8469579578d4d607c3, type: 2}
+    _WindowRect:
+      serializedVersion: 2
+      x: 658.19995
+      y: 217.79999
+      width: 200
+      height: 100
+    _WindowTitle: Condition
+    _EnterNode: 11
+    _TargetNode: 14
+    _IsDuplicate: 0
+    _Comment: 
+    _IsAssigned: 1
+    _Collapse: 0
+    _ShowActions: 1
+    _ShowEnterExit: 0
+    _PreviousCollapse: 0
+    _StateNodeRef:
+      _CurrentState: {fileID: 0}
+      _PreviousState: {fileID: 0}
+    _TransitionNodeRef:
+      _PreviousCondition: {fileID: 11400000, guid: 4e113ed41dce2164ba5b09d5343ee9ca,
+        type: 2}
+      _TrasitionId: 1
+  - _Id: 14
+    _DrawNode: {fileID: 11400000, guid: 8d34a0241220e2b41891679c671c7488, type: 2}
+    _WindowRect:
+      serializedVersion: 2
+      x: 935.1991
+      y: 225.60016
+      width: 200
+      height: 150
+    _WindowTitle: State
+    _EnterNode: 0
+    _TargetNode: 0
+    _IsDuplicate: 0
+    _Comment: 
+    _IsAssigned: 1
+    _Collapse: 0
+    _ShowActions: 0
+    _ShowEnterExit: 0
+    _PreviousCollapse: 0
+    _StateNodeRef:
+      _CurrentState: {fileID: 11400000, guid: 8b61aaa56947cf64bb5b9baad8d2149e, type: 2}
+      _PreviousState: {fileID: 11400000, guid: 8b61aaa56947cf64bb5b9baad8d2149e, type: 2}
+    _TransitionNodeRef:
+      _PreviousCondition: {fileID: 0}
+      _TrasitionId: 0
+  _IdCount: 16

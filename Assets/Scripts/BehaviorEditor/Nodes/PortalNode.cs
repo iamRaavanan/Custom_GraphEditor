@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace Behavior.GraphEditor
+namespace Raavanan.GraphEditor
 {
     [CreateAssetMenu(menuName = "Editor/Nodes/Portal Node")]
     public class PortalNode : DrawNode

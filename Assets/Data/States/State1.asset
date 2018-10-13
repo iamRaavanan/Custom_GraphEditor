@@ -18,6 +18,10 @@ MonoBehaviour:
   _Transition:
   - _Id: 1
     _Condition: {fileID: 11400000, guid: 4e113ed41dce2164ba5b09d5343ee9ca, type: 2}
+    _TargetState: {fileID: 11400000, guid: 8b61aaa56947cf64bb5b9baad8d2149e, type: 2}
+    _Disable: 0
+  - _Id: 2
+    _Condition: {fileID: 0}
     _TargetState: {fileID: 0}
     _Disable: 0
-  _IdCount: 2
+  _IdCount: 3

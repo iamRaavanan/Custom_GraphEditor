@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Behavior
+namespace Raavanan
 {
     public abstract class StateActions : ScriptableObject
     {
